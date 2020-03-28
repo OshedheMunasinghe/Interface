@@ -19,7 +19,7 @@ public class Main {
         }
 
 // Loop through Chattables
-        Chattable[] chattables = {shopKeeper, teacup};
+        Chattable[] chattables = {shopKeeper, teacup}; //You can also call from interface!
 
         for (Chattable chattable : chattables) {
             String response = chattable.chat();

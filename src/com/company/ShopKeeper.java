@@ -1,6 +1,6 @@
 package com.company;
 
-public class ShopKeeper extends Person implements Chattable {
+public class ShopKeeper extends Person implements Chattable, Seller {
     ShopKeeper(String name) {
         super(name);
     }
@@ -10,7 +10,8 @@ public class ShopKeeper extends Person implements Chattable {
         return "Hi, I am a ShopKeeper";
     }//end chat
 
-    void sellGoods() {
+    @Override
+    public void sellGoods() {
         //TODO: Implement the sellGoods method
     }//end sellGoods
 }
