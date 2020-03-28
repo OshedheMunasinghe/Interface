@@ -1,6 +1,6 @@
 package com.company;
 
-public interface Speak {
+public interface Chattable {
     String chat();
 
 }

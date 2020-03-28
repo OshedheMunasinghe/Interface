@@ -1,6 +1,6 @@
 package com.company;
 
-public class Person implements Speak {
+public class Person implements Chattable {
     String name;
 
     Person(String name) {

@@ -1,6 +1,6 @@
 package com.company;
 
-public class ShopKeeper extends Person implements Speak {
+public class ShopKeeper extends Person implements Chattable {
     ShopKeeper(String name) {
         super(name);
     }

@@ -1,9 +1,8 @@
 package com.company;
 
-public class TeaCup extends Person implements Speak {
-    TeaCup(String name) {
-        super(name);
-    }//end constructor
+public class Teacup implements Chattable {
+
+
 
     @Override
     public String chat() {
