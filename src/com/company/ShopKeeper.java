@@ -1,16 +1,16 @@
 package com.company;
 
-public class ShopKeeper extends Person {
+public class ShopKeeper extends Person implements Speak {
     ShopKeeper(String name) {
         super(name);
     }
 
     @Override
-    String chat() {
+    public String chat() {
         return "Hi, I am a ShopKeeper";
     }//end chat
 
-    void sellGoods(){
+    void sellGoods() {
         //TODO: Implement the sellGoods method
     }//end sellGoods
 }
